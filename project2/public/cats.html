@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cats.css">
+    <title>Cats</title>
+</head>
+<body>
+<header>
+    <div id="root">
+        <header class="header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="http://placekitten.com/100/100" alt="Cats logo">
+                </a>
+            </div>
+            <h1 class="header__title">Famous Internet Cats</h1>
+    <nav class="Menu">
+        <a href="#" class="link" aria-label="Home">Home</a>
+        <a href="cats.html" class="link" aria-label="Famous Cats">Famous Cats</a>
+        <a href="#" class="link" aria-label="Cat Events">Cat Events</a>
+    </nav>
+    <div class="dropdown_menu"><button id="menu_button" aria-label="Menu">&#9776;</button>
+        <ul class="dropdown_content">
+            <li><a href="#" class="link" aria-label="Home">Home</a></li>
+            <li><a href="cats.html" class="link" aria-label="Famous Cats">Famous Cats</a></li>
+            <li><a href="#" class="link" aria-label="Cat Events">Cat Events</a></li>
+        </ul>
+    </div>
+</header>
+<main>
+    <div class="cards">
+        <div class="card">
+            <h2>Laos</h2>
+            <img src="http://placekitten.com/200/200" alt="cat">
+            <p class="card_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, vel. </p>
+            <p class="card_text">Lorem ipsum dolor sit. <a href="#" class="card_link" aria-label="Subscribe">Subscribe</a> Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="card">
+            <h2>Jeanned</h2>
+            <img src="http://placekitten.com/200/200" alt="cat">
+            <p class="card_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, harum eos. </p>
+            <p class="card_text">Lorem ipsum dolor sit. <a href="#" class="card_link" aria-label="Subscribe">Subscribe</a> Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="card">
+            <h2>Sharb</h2>
+            <img src="http://placekitten.com/200/200" alt="cat">
+            <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia obcaecati nam debitis fugiat! </p>
+            <p class="card_text">Lorem ipsum dolor sit. <a href="#" class="card_link" aria-label="Subscribe">Subscribe</a> Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="card">
+            <h2>Watcheal</h2>
+            <img src="http://placekitten.com/200/200" alt="cat">
+            <p class="card_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae vitae obcaecati ex accusantium. </p>
+            <p class="card_text">Lorem ipsum dolor sit. <a href="#" class="card_link" aria-label="Subscribe">Subscribe</a> Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="card">
+            <h2>Lima</h2>
+            <img src="http://placekitten.com/200/200" alt="cat">
+            <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem est quaerat quibusdam harum. Ullam, placeat commodi! </p>
+            <p class="card_text">Lorem ipsum dolor sit. <a href="#" class="card_link" aria-label="Subscribe">Subscribe</a> Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="card">
+            <h2>Xite</h2>
+            <img src="http://placekitten.com/200/200" alt="cat">
+            <p class="card_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae expedita nemo necessitatibus vitae fuga assumenda. </p>
+            <p class="card_text">Lorem ipsum dolor sit. <a href="#" class="card_link" aria-label="Subscribe">Subscribe</a>  Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+    <div id="myModal" class="model">
+        <div class="model-content">
+            <h2>Subscribe to The Latest Mews!</h2>
+            <form class="subscribe"  action="/subscribe" method="post">
+                <label class="registerLabel">
+                    <span class="email">Email: *<span class="hint">required</span></span>
+                    <input type="text" id="email" class="email" placeholder="Email">
+                    <span class="errorMassage"></span>
+                </label>
+                <label class="registerLabel">
+                    <span class="confimEmail">Confirm Email: *<span class="hint">required</span></span>
+                    <input type="text" id="confimEmail" class="confimEmail" placeholder="Confirm Email">
+                    <span class="errorMassage"></span>
+                </label>
+                <div class="buttonsContainer">
+                    <button type="submit" id="subscribeButton" aria-label="Subscribe">Subscribe</button>
+                    <button id="close" aria-label="Cancel">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer_link">
+        <a href="#" aria-label="Privacy Policy">Privacy Policy</a>
+        <a href="#" aria-label="Work for Us">Work for Us</a>
+        <a href="#" aria-label="Contact Us">Contact Us</a>
+        <a href="#" aria-label="Social Media">Social Media</a>
+    </div>
+</footer>
+<script src="cats.js"></script>
+</body>
+</html>

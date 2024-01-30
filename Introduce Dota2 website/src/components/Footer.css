@@ -1,0 +1,24 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background: linear-gradient(to right, #e85d04, #ffba08);
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer__content {
+    grid-column: 6 / span 8;
+    font-size: 20px;
+    grid-row: 1;
+  }
+  
+  .footer.light {
+    background: linear-gradient(to right, #e85d04, #ffba08);
+    color: grey;
+  }
+  
+  .footer.dark {
+    background-color: grey;
+    color: #ffffff;
+  }
+  

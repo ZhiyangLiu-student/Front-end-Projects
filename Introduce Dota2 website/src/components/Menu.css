@@ -1,0 +1,14 @@
+.buttonsl{
+    display: grid; 
+    grid-template-columns: repeat(12,1fr);
+    background:  linear-gradient(to right, #ff686b, #a5ffd6);
+    justify-items: center;
+  }
+
+  @media (max-width: 44rem) {
+    .buttonsl {
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+    }
+  }

@@ -1,0 +1,38 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto; 
+    align-items: center;
+    justify-content: center;
+    background:  linear-gradient(to right, #e85d04, #ffba08);
+    padding: 1rem;
+    position: relative;
+}
+
+.header__title {
+    grid-column: 6 / span 8; 
+    font-size: 40px;
+    margin-bottom: 1rem;
+    grid-row: 1; 
+    color: #161a1d;
+    font-size: 5rem;
+}
+.logo {
+    grid-column: 1 / span 2; 
+    position: relative;
+    top: 0;
+    left: 0;
+    grid-row: 1; 
+    width: 150px;
+    height: 150px;
+}
+
+.header.light {
+    background:  linear-gradient(to right, #e85d04, #ffba08);
+    color: grey;
+  }
+
+.header.dark {
+    background-color: grey;
+    color: #ffffff;
+}

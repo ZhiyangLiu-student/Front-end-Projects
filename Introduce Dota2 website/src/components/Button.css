@@ -1,0 +1,36 @@
+.link-Button {
+    background: none;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  
+  .default-Button {
+    background-color: orangered; 
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  Button{
+    grid-column: span 3;
+    margin: 15px;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 1rem;
+    
+  }
+
+  .buttonsl.light {
+    background: linear-gradient(to right, #ff686b, #a5ffd6);
+  }
+  
+  .buttonsl.dark {
+    background-color: grey;
+    /* Add styles for the dark theme as needed */
+  }

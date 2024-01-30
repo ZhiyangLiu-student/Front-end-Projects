@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  background:  linear-gradient(to right, #ff686b, #a5ffd6);
+  position: relative;
+  font-size: 1rem; 
+}
+
+.skip-link{
+  position: fixed;
+  top: -999px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  color: black;
+  transition: top 0.3s;
+  font-size: 2rem;
+}
+.skip-link:focus{
+  top:0;
+}
+
